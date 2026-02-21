@@ -1,14 +1,15 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Check } from "lucide-react";
+import Image from "next/image";
+import Star from "../../assets/images/star-2.png";
 
 const advantages = [
-  "Direct Expert",
+  "React Expert",
   "Pixel Perfect",
   "TypeScript Proficiency",
   "Clean, Maintainable Code",
   "Performance Optimization",
   "Responsive Website",
-  "UI Design Prototyping (Figma)",
+  "Ul Design Proficiency (Figma)",
 ];
 
 export default function WithMeCard() {
@@ -16,11 +17,11 @@ export default function WithMeCard() {
     <section>
       <Card className="bg-linear-to-br from-purple-900 to-pink-700 border-0 rounded-2xl text-white">
         <CardContent className="p-6 space-y-4">
-          <h3 className="font-semibold">With Me</h3>
+          <h3 className="text-[18px] font-semibold text-neutral-25">With Me</h3>
 
           {advantages.map((item) => (
             <div key={item} className="flex items-center gap-3 text-sm">
-              <Check className="w-4 h-4 text-green-400" />
+              <Image src={Star} alt="star" width={16} height={16} />
               {item}
             </div>
           ))}
