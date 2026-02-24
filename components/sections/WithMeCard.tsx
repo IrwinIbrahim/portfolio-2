@@ -14,7 +14,7 @@ const advantages = [
 
 export default function WithMeCard() {
   return (
-    <section>
+    <section className="px-4">
       <Card className="bg-linear-to-br from-purple-900 to-pink-700 border-0 rounded-2xl text-white">
         <CardContent className="p-6 space-y-4">
           <h3 className="text-[18px] font-semibold text-neutral-25">With Me</h3>

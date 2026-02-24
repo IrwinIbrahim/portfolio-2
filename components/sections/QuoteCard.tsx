@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export default function QuoteCard() {
   return (
-    <section>
+    <section className="px-4">
       <Card className="px-4 w-90.25 h-75.75 rounded-2xl border-0 bg-linear-to-br from-purple-600 to-pink-500 text-white">
         <CardContent className="p-6 space-y-4">
           <p className="text-[20px] font-bold">

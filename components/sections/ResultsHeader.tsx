@@ -1,6 +1,6 @@
 export default function ResultsHeader() {
   return (
-    <section className="space-y-3 text-center">
+    <section className="px-4 space-y-3 text-center">
       <h2 className="text-[28px] font-bold">
         Choose Wisely, Get Quality Results
       </h2>
